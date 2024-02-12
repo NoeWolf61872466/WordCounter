@@ -8,5 +8,4 @@ def count_words(file_name):
         words = contents.split()
         num_words = len(words)
         print(f"The file {file_name} has about {num_words} words.")
-
 count_words('example.txt')
